@@ -1,0 +1,208 @@
+
+.page-header{
+    background-image: url("../images/10.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-header .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.8757878151260504) 0%, rgba(0,0,0,0.2959558823529411) 100%);
+}
+
+.page-header h1{
+    position: relative;
+    margin-top: 50px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 53px;
+}
+
+.projects-page .projects-page-content{
+    background-image: url("../images/16.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.projects-page .projects-page-content>.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffffed;
+}
+
+.projects-page .projects-page-about{
+    position: relative;
+    margin-right: 20px;
+}
+
+.projects-page .projects-page-about h3{
+    color: #979797;
+    text-align: right;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.projects-page .projects-page-about h1{
+    font-size: 44px;
+    font-weight: 500;
+    word-spacing: 8px;
+    text-align: right;
+    direction: rtl;
+}
+
+.projects-page .projects-page-about p{
+    margin-top: 29px;
+    font-size: 18px;
+    line-height: 34px;
+    padding: 8px;
+    color: #8f8f8f;
+    text-align: right;
+    line-height: 30px;
+    direction: rtl;
+    font-weight: 700;
+}
+
+.projects-page .projects-page-about .text{
+    background-image: url("../images/19.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 402px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    text-align: center;
+    position: relative;
+}
+
+.projects-page .projects-page-about .text .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0f4277e3;
+}
+
+.projects-page .projects-page-about .text h2{
+    color: #fff;
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 21px;
+}
+
+.projects-page .projects-page-about .text h4{
+    color: #fff;
+    position: relative;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 15px;
+
+
+}
+
+
+
+
+.projects-page .recent-project{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+.projects-page .recent-project img{
+    width: 100%;
+    height: 306px;
+    object-fit: cover;
+}
+
+.projects-page .recent-project .info{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.projects-page .recent-project .info .tag{
+    
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #fff;
+    padding: 5px;
+    width: 130px;
+    min-height: 29px;
+
+}
+
+
+.projects-page .recent-project .info .tag img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    }
+
+
+
+.projects-page .recent-project .info .more-info{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 14px;
+}
+
+.projects-page .recent-project .info .more-info h2{
+    font-size: 17px;
+    font-weight: 400;
+    text-align: right;
+    margin-right: 16px;
+}
+
+.projects-page .recent-project .info .more-info a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f4277;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+}

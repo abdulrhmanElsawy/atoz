@@ -1,0 +1,57 @@
+.contact-section{
+
+}
+
+.contact-section .contact-text{
+    margin-top: 100px;
+}
+
+.contact-section .contact-text h1{
+    font-size: 45px;
+    font-family: 'Bacasime Antique', serif;
+    font-weight: 600;
+}
+
+.contact-section .contact-text h2{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact-section .contact-text a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 52px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 33px;
+    color: #fff;
+}
+
+
+
+.contact-section .contact-img{
+    margin-bottom: 70px;
+}
+
+
+.contact-section .contact-img img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 32px;
+}
+
+
+.contact-section .map{
+    
+}
+
+
+.contact-section .map iframe{
+    
+}

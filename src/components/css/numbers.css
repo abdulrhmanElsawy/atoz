@@ -1,0 +1,84 @@
+.numbers-section{
+    background-image: url('../images/numbers.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+
+.numbers-section .text{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+
+.numbers-section .text h2{
+    margin-bottom: 17px;
+    font-size: 21px;
+    font-weight: 300;
+    word-spacing: 11px;
+}
+
+
+.numbers-section .text h1{
+    font-family: 'Bacasime Antique', serif;
+    font-size: 53px;
+    color: #000;
+    width: 76%;
+}
+
+
+.numbers-section .text p{
+    font-size: 17px;
+    width: 67%;
+    font-weight: 300;
+}
+
+.numbers-section .text .numbers-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 74px;
+}
+
+.numbers-section .text .numbers-details .detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.numbers-section .text .numbers-details .detail i{
+    font-size: 42px;
+    color: #42b649;
+}
+
+.numbers-section .text .numbers-details .detail .number{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.numbers-section .text .numbers-details .detail .number h3{
+    font-size: 33px;
+    font-family: 'Bacasime Antique', serif;
+    font-weight: 600;
+    color: #42b649;
+}
+
+
+.numbers-section .text .numbers-details .detail .number h4{
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+}
+
+
+
+

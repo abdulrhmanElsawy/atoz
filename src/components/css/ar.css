@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+
+
+
+*:not(i){
+    font-family: 'IBM Plex Sans Arabic', sans-serif !important;
+}
+
+.numbers-section .text h1 {
+    font-family: 'Bacasime Antique', serif;
+    font-size: 53px;
+    color: #000;
+    width: 76%;
+    text-align: right;
+}
+
+
+.numbers-section .text h2 {
+    margin-bottom: 17px;
+    font-size: 21px;
+    font-weight: 300;
+    word-spacing: 11px;
+    text-align: right;
+}
+
+.numbers-section .text p {
+    font-size: 17px;
+    width: 67%;
+    font-weight: 300;
+    direction: rtl;
+}
+
+
+.about-us .about-content .about-details .about .text h3 {
+    font-family: 'Bacasime Antique', serif;
+    font-weight: 700;
+    font-size: 23px;
+    color: #42b649;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.about-us .about-content .about-details .about .text h4 {
+    text-align: right;
+    direction: rtl;
+    margin-right: 15px;
+
+}
+
+
+.contact-section .contact-text a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 52px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 33px;
+    color: #fff;
+    direction: rtl;
+}
+
+
+.contact-section .contact-text h1 {
+    text-align: right;
+    font-size: 45px;
+    font-family: 'Bacasime Antique', serif;
+    font-weight: 600;
+}
+
+.contact-section .contact-text h2 {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+}
+
+
+.contact-section .contact-text h1 {
+    font-family: Bacasime Antique,serif;
+    font-size: 45px;
+    font-weight: 600;
+    direction: rtl;
+}
+
